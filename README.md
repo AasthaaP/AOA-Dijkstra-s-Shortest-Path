@@ -31,3 +31,20 @@ Include the source code of your implementation of Dijkstra’s algorithm. [Of co
 Help Professor Charlie Eppes find the most likely escape routes of thieves that robbed a bookstore on Texas Avenue in College Station. The map will be published on Thursday evening. In preparation, you might want to implement Dijkstra’s single-source shortest path algorithm, so that you can join the manhunt on Thursday evening. Include your implementation of Dijkstra’s algorithm and explain all details of your choice of the min-priority queue.
 
 **[Edge weight 1 means very desirable street, weight 2 means less desirable street.]**
+
+
+## SOLUTION 
+
+To solve this problem, we will use **Dijkstra's Algorithm** to find the shortest path from node 1 (the starting point) to six possible destinations where the robbers might be heading. The distances to each destination will help determine the most likely route taken by the robbers.
+
+We will implement the following steps:
+1. Model the map as a graph where each node represents a waypoint and edges represent the direct roads between waypoints.
+2. Assign weights to the edges based on the traffic conditions: weight 1 for green roads and weight 2 for orange roads.
+3. Use **Dijkstra’s Algorithm** to find the shortest paths from the source node (1) to the six possible destinations: 6, 8, 9, 15, 16, or 22.
+4. Output the shortest path distance to each destination.
+
+## Example Input
+The input graph has 22 nodes (representing waypoints), and the edges have weights based on the traffic conditions:
+- Weight 1 for green roads.
+- Weight 2 for orange roads.
+
