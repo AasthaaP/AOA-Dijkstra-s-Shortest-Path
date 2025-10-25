@@ -33,7 +33,7 @@ Help Professor Charlie Eppes find the most likely escape routes of thieves that 
 **[Edge weight 1 means very desirable street, weight 2 means less desirable street.]**
 
 
-## SOLUTION 
+## Solution Approach
 
 To solve this problem, we will use **Dijkstra's Algorithm** to find the shortest path from node 1 (the starting point) to six possible destinations where the robbers might be heading. The distances to each destination will help determine the most likely route taken by the robbers.
 
