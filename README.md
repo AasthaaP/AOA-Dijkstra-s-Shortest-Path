@@ -26,7 +26,7 @@ Include the source code of your implementation of Dijkstra’s algorithm. [Of co
 
 ---
 
-## Problem 4 (40 points)
+## Problem 4 - Homework 7
 
 Help Professor Charlie Eppes find the most likely escape routes of thieves that robbed a bookstore on Texas Avenue in College Station. The map will be published on Thursday evening. In preparation, you might want to implement Dijkstra’s single-source shortest path algorithm, so that you can join the manhunt on Thursday evening. Include your implementation of Dijkstra’s algorithm and explain all details of your choice of the min-priority queue.
 
